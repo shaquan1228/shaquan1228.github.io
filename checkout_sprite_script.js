@@ -28,7 +28,8 @@
 				var button = document.createElement('button');
 				button.appendChild(player.dom);
 				document.body.appendChild(button);
-				button.onclick = window.open("https://shaquan1228.github.io/home.html");
+				button.location.href = "https://shaquan1228.github.io/home.html";
+			//	button.onclick = window.open("https://shaquan1228.github.io/home.html");
 
                         } );
 
