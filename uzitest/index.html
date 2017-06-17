@@ -52,7 +52,7 @@
 					var button = document.createElement( 'a' );
 					button.id = 'edit';
 					button.href = 'https://threejs.org/editor/#file=' + location.href.split( '/' ).slice( 0, - 1 ).join( '/' ) + '/app.json';
-					button.target = '_blank';
+					button.target = '_self';
 					button.textContent = 'EDIT';
 					document.body.appendChild( button );
 				}
