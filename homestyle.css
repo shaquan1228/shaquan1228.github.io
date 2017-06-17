@@ -22,10 +22,13 @@ h1{
         vertical-align:center;
 }
 #canvas{
-   	display: block;
-    	margin: 0 auto;
-    	vertical-align:center;
+	text-align:center;
+        position:top;
+        display: block;
+        margin: 0 auto;
+        vertical-align:center;
 }
+
 /*selectable content*/
 button{
 	color: red;
