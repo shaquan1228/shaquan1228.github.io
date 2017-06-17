@@ -28,8 +28,8 @@
 				var button = document.createElement('button');
 				button.appendChild(player.dom);
 				button.target= '_self';
-				document.getElementById('button').onclick = window.location= 'https://shaquan1228.github.io/home.html';
 				document.body.appendChild(button);
+				document.getElementById('button').onclick = location.href= 'https://shaquan1228.github.io/home.html';
 			//	button.onclick = window.open("https://shaquan1228.github.io/home.html","_self");
 
                         } );
