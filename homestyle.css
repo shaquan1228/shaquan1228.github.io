@@ -21,13 +21,6 @@ h1{
         margin: 0 auto;
         vertical-align:center;
 }
-#canvas{
-	text-align:center;
-        position:top;
-        display: block;
-        margin: 0 auto;
-        vertical-align:center;
-}
 
 /*selectable content*/
 button{
