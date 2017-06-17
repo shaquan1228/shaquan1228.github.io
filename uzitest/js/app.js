@@ -8,16 +8,34 @@ var APP = {
 
 		var loader = new THREE.ObjectLoader();
 		var camera, scene, renderer;
-
+		
 		var controls, effect, cameraVR, isVR;
 
 		var events = {};
+
+		// Rotate an object around an arbitrary axis in object space
+		var rotObjectMatrix;
 
 		this.dom = document.createElement( 'div' );
 
 		this.width = 500;
 		this.height = 500;
+function rotateAroundObjectAxis(object, axis, radians) {
+    rotObjectMatrix = new THREE.Matrix4();
+    			rotObjectMatrix.makeRotationAxis(axis.normalize(), radians);
 
+    			// old code for Three.JS pre r54:
+    			// object.matrix.multiplySelf(rotObjectMatrix);      // post-multiply
+    			// new code for Three.JS r55+:
+    			object.matrix.multiply(rotObjectMatrix);
+
+   			 // old code for Three.js pre r49:
+   			 // object.rotation.getRotationFromMatrix(object.matrix, object.scale);
+    			// old code for Three.js r50-r58:
+   			 // object.rotation.setEulerFromRotationMatrix(object.matrix);
+    			// new code for Three.js r59+:
+		    	object.rotation.setFromRotationMatrix(object.matrix);
+		}
 		this.load = function ( json ) {
 
 			isVR = json.project.vr;
@@ -205,6 +223,8 @@ var APP = {
 				renderer.render( scene, camera );
 
 			}
+			var xAxis = new THREE.Vector3(1,0,0);
+			rotateAroundWorldAxis(mesh, xAxis, Math.PI / 180);
 			prevTime = time;
 
 		}
