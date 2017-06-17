@@ -14,7 +14,7 @@
                                 } );
 
 				
-				player.onclick =  window.open("https://shaquan1228.github.io/home.html"));
+				window.onclick =  window.open("https://shaquan1228.github.io/home.html"));
                                 if ( location.search === '?edit' ) {
                                         var button = document.createElement( 'a' );
                                         button.id = 'edit';
