@@ -17,7 +17,7 @@ h1{
 #uzi{
 
 background-color:black;
-	position:absolute;
+	position:static;
  	left:50%;
 	top:50%;
 	width:20px;
