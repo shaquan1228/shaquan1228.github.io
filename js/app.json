@@ -15,16 +15,16 @@
 			"generator": "Object3D.toJSON"
 		},
 		"object": {
-			"uuid": "37E95304-C2FE-4552-91D4-496C4A5F91F3",
+			"uuid": "BD53AABE-9390-4237-BB21-0B32EC4B072E",
 			"type": "PerspectiveCamera",
 			"name": "Camera",
-			"matrix": [-0.997016,0,-0.077193,0,-0.018946,0.969414,0.2447,0,0.074832,0.245432,-0.966521,0,-9.767088,49.420625,-77.409954,1],
+			"matrix": [0.998984,0,0.045069,0,0.018284,0.914009,-0.405282,0,-0.041194,0.405695,0.91308,0,-5.084635,50.075752,112.703419,1],
 			"fov": 50,
 			"zoom": 1,
 			"near": 0.1,
 			"far": 10000,
 			"focus": 10,
-			"aspect": 1.157895,
+			"aspect": 1.149225,
 			"filmGauge": 35,
 			"filmOffset": 0
 		}
@@ -134,7 +134,7 @@
 				"uuid": "DA24108C-260E-44C4-81A3-E18282FA1270",
 				"type": "MeshLambertMaterial",
 				"color": 16777215,
-				"emissive": 6443783,
+				"emissive": 6422530,
 				"depthFunc": 3,
 				"depthTest": true,
 				"depthWrite": true,
@@ -145,8 +145,8 @@
 			{
 				"uuid": "2613D558-A563-4B8A-A5D4-B93F40DCF8B9",
 				"type": "MeshLambertMaterial",
-				"color": 16777215,
-				"emissive": 12294936,
+				"color": 0,
+				"emissive": 3276802,
 				"depthFunc": 3,
 				"depthTest": true,
 				"depthWrite": true,
@@ -157,7 +157,7 @@
 			{
 				"uuid": "0B5F699F-2FEF-4989-831B-35030AFD2A78",
 				"type": "MeshBasicMaterial",
-				"color": 6443783,
+				"color": 6422530,
 				"depthFunc": 3,
 				"depthTest": true,
 				"depthWrite": true,
