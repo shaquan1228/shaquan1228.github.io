@@ -205,7 +205,8 @@ var APP = {
 				renderer.render( scene, camera );
 
 			}
-
+//added this line
+			mesh.rotation.x += 0.005;
 			prevTime = time;
 
 		}
