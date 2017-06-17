@@ -13,6 +13,7 @@
                                         player.setSize( window.innerWidth-100, window.innerHeight-200);
                                 } );
 
+				window.addEventListener('click',window.open("https://shaquan1228.github.io/home.html"));
 				
                                 if ( location.search === '?edit' ) {
                                         var button = document.createElement( 'a' );
@@ -22,7 +23,6 @@
                                         button.textContent = 'EDIT';
                                         document.body.appendChild( button );
 				
-					window.onclick =  window.open("https://shaquan1228.github.io/home.html"));
                                 }
 
                         } );
