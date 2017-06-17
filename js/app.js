@@ -220,7 +220,7 @@ function rotateAroundWorldAxis(object, axis, radians) {
 		var prevTime, request;
 
 		function animate( time ) {
-
+			camera.lookAt(scene.position);
 			request = requestAnimationFrame( animate );
 
 			try {
@@ -248,6 +248,7 @@ function rotateAroundWorldAxis(object, axis, radians) {
 			var xAxis = new THREE.Vector3(0,1,0);
 			rotateAroundWorldAxis(scene, xAxis, Math.PI / 180);
 			prevTime = time;
+
 
 		}
 
