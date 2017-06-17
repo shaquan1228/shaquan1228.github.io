@@ -14,7 +14,6 @@
                                 } );
 
 				
-				window.onclick =  window.open("https://shaquan1228.github.io/home.html"));
                                 if ( location.search === '?edit' ) {
                                         var button = document.createElement( 'a' );
                                         button.id = 'edit';
@@ -22,6 +21,8 @@
                                         button.target = '_self';
                                         button.textContent = 'EDIT';
                                         document.body.appendChild( button );
+				
+					window.onclick =  window.open("https://shaquan1228.github.io/home.html"));
                                 }
 
                         } );
