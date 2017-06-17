@@ -19,7 +19,7 @@
                                 if ( location.search === '?edit' ) {
                                         var button = document.createElement( 'a' );
                                         button.id = 'edit';
-                                        button.href = 'https://shaquan1228.github.io/home.html#file=' + location.href.split( '/' ).slice( 0, - 1 ).join( '/' ) + '/home.html';
+                                        button.href = 'https://shaquan1228.github.io/#file=' + location.href.split( '/' ).slice( 0, - 1 ).join( '/' ) + '/home.html';
                                         button.target = '_self';
                                         button.textContent = 'EDIT';
                                         document.body.appendChild( button );
