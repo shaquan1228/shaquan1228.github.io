@@ -1,4 +1,3 @@
-     <script>
                         var loader = new THREE.FileLoader();
                         loader.load( 'js/app.json', function ( text ) {
 
@@ -25,4 +24,3 @@
 
                         } );
 
-</script>
