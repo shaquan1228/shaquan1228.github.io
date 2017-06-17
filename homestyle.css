@@ -15,7 +15,8 @@ h1{
 
 /*uzi 3d content*/
 #uzi{
-
+	display:table;
+}
 background-color:black;
 	position:static;
  	left:50%;
