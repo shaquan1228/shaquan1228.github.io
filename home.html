@@ -19,15 +19,16 @@
                         var loader = new THREE.FileLoader();
                         loader.load( 'js/app.json', function ( text ) {
 
+	
                                 var player = new APP.Player();
                                 player.load( JSON.parse( text ) );
-                                player.setSize( 300,300 );
+                                player.setSize( window.innerWidth, window.innerHeight);
                                 player.play();
 
                                 document.body.appendChild( player.dom );
 
                                 window.addEventListener( 'resize', function () {
-                                        player.setSize( 300, 300 );
+                                        player.setSize( window.innerWidth, window.innerHeight );
                                 } );
 
                                 if ( location.search === '?edit' ) {
