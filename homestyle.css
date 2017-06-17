@@ -17,7 +17,7 @@ h1{
 #uzi{
 	text-align:center;
 	position:top;
-	display: block;
+	display: compact;
         margin: 0 auto;
         vertical-align:center;
 }
