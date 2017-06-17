@@ -42,5 +42,6 @@ button{
 	position: relative;
 	bottom: 0;
 	border:1px solid #660000;
+	border-radius:12px;
 	padding: 1.5em;
 }
