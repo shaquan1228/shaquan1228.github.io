@@ -4,14 +4,14 @@
 
                                 var player = new APP.Player();
                                 player.load( JSON.parse( text ) );
-                                player.setSize( window.innerWidth-100, window.innerHeight-200);
+                                player.setSize( window.innerWidth-600, window.innerHeight-450);
                                 player.play();
 
                               //  document.body.appendChild( player.dom );
 				
 				//document.body.appendChild(
-                                //window.addEventListener( 'resize', function () {
-                                 //       player.setSize( window.innerWidth-100, window.innerHeight-200);
+                               // window.addEventListener( 'resize', function () {
+                                 //       player.setSize( window.innerWidth-650, window.innerHeight-550);
                                // } );
 
 				//document.onclick = window.open("https://shaquan1228.github.io/home.html");
@@ -25,8 +25,9 @@
                                         document.body.appendChild( button );
 				
                                 }
-				var button = document.createElement('button');
+				var button = document.createElement('button1');
 				button.appendChild(player.dom);
+			//THIS WILL BE WHERE WE LINK THE SPRITE TO THE CHECKOUT PAGE
 				button.addEventListener( 'click', function(){
 					window.open("https://shaquan1228.github.io/home.html");
 				});

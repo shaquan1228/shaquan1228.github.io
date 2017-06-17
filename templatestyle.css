@@ -49,7 +49,20 @@ button{
 	display: inline-block;
 	position: relative;
 	bottom: 0;
-	border:1px solid #660000;
 	border-radius:12px;
+	border:1px solid #660000;
 	padding: 1.5em;
+}
+button1{
+        color:#660000;
+        background-color:black;
+        min-height: 48px;
+        min-width: 48px;
+        margin-top:-10px;
+        display: compact;
+        position: absolute;
+	top:0;
+	right:0;
+        border-radius:12px;
+        padding: 1.5em;
 }
