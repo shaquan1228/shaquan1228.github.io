@@ -205,7 +205,7 @@ var APP = {
 				renderer.render( scene, camera );
 
 			}
-			camera.rotation.y = 90 * Math.PI / 180;
+			camera.rotation.x = 90 * Math.PI / 180;
 			prevTime = time;
 
 		}
