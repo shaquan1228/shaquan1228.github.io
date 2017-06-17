@@ -15,15 +15,23 @@ h1{
 
 /*uzi 3d content*/
 #uzi{
-	display:table;
-	/*height:20px;*/
-	margin-left:-10px; /* -1/2 width */
-	margin-top:-10px; /* -1/2 height */
 
+	/*HEAD*/
+	/*display:table;*/
+	/*height:20px;*/
+	/*margin-left:-10px;*/ /* -1/2 width */
+	/*margin-top:-10px; *//* -1/2 height */
+
+	text-align:center;
+	position:table;
+	display: compact;
+        margin:150px;
+        vertical-align:center;
+	 tmpbranch
 }
 
 /*selectable content*/
-.button{
+button{
 	color: red;
 	background-color: black;
 	min-height: 48px;
