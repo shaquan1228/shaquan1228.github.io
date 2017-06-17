@@ -23,7 +23,7 @@ h1{
 	/*margin-top:-10px; *//* -1/2 height */
 
 	text-align:center;
-	position:fixed;
+	position:static;
 	display: compact;
         margin-top:50px;
         vertical-align:center;
