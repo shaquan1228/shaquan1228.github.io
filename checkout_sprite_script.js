@@ -4,14 +4,14 @@
 
                                 var player = new APP.Player();
                                 player.load( JSON.parse( text ) );
-                                player.setSize( window.innerWidth-600, window.innerHeight-450);
+                                player.setSize( window.innerWidth-800, window.innerHeight-450);
                                 player.play();
 
                               //  document.body.appendChild( player.dom );
 				
 				//document.body.appendChild(
                                // window.addEventListener( 'resize', function () {
-                                 //       player.setSize( window.innerWidth-650, window.innerHeight-550);
+                                 //       player.setSize( window.innerWidth-600, window.innerHeight-450);
                                // } );
 
 				//document.onclick = window.open("https://shaquan1228.github.io/home.html");
