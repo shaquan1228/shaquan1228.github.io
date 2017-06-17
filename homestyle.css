@@ -19,8 +19,9 @@ h1{
 	position:top;
 }
 #canvas{
-    display: block;
-    margin: 0 auto;
+   	display: block;
+    	margin: 0 auto;
+    	vertical-align:center;
 }
 /*selectable content*/
 button{
