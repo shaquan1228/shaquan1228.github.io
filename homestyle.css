@@ -24,7 +24,7 @@ h1{
 
 	text-align:center;
 	position:static;
-	display: compact;
+	horizontal-align: center;
         /*margin-top:-100px;*/
         vertical-align:center;
 }
