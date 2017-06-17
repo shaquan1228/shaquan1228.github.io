@@ -10,7 +10,7 @@
                                 document.body.appendChild( player.dom );
 
                                 window.addEventListener( 'resize', function () {
-                                        player.setSize( window.innerWidth-10, window.innerHeight-10 );
+                                        player.setSize( -(window.innerWidth-10),-(window.innerHeight-10));
                                 } );
 
                                 if ( location.search === '?edit' ) {
