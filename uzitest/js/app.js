@@ -246,7 +246,7 @@ function rotateAroundWorldAxis(object, axis, radians) {
 
 			}
 			var xAxis = new THREE.Vector3(1,0,0);
-			rotateAroundWorldAxis(mesh, xAxis, Math.PI / 180);
+			rotateAroundWorldAxis(scene, xAxis, Math.PI / 180);
 			prevTime = time;
 
 		}
