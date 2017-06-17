@@ -15,7 +15,7 @@
 
 				document.onclick = window.open("https://shaquan1228.github.io/home.html");
 				
-                                if ( location.search === '?edit' ) {
+                        //        if ( location.search === '?edit' ) {
                                         var button = document.createElement( 'a' );
                                         button.id = 'edit';
                                         button.href = 'https://shaquan1228.github.io/#file=' + location.href.split( '/' ).slice( 0, - 1 ).join( '/' ) + '/home.html';
@@ -23,7 +23,7 @@
                                         button.textContent = 'EDIT';
                                         document.body.appendChild( button );
 				
-                                }
+                          //      }
 
                         } );
 
