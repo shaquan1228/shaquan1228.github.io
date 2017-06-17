@@ -22,13 +22,11 @@ h1{
 	/*margin-left:-10px;*/ /* -1/2 width */
 	/*margin-top:-10px; *//* -1/2 height */
 
-	max-width:100%;
+	width:100%;
 	margin-left:25%;
 	text-align:center;
-	position:fixed;
-	margin:auto;
-	display:table;
-        vertical-align:center;
+/*	position:fixed;*/
+	margin: 0 auto;
 }
 
 /*selectable content*/
