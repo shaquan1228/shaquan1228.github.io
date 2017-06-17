@@ -245,7 +245,7 @@ function rotateAroundWorldAxis(object, axis, radians) {
 				renderer.render( scene, camera );
 
 			}
-			var xAxis = new THREE.Vector3(1,0,0);
+			var xAxis = new THREE.Vector3(0,1,0);
 			rotateAroundWorldAxis(scene, xAxis, Math.PI / 180);
 			prevTime = time;
 
