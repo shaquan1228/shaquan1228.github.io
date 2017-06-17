@@ -15,6 +15,7 @@ h1{
 
 /*uzi 3d content*/
 #uzi{
+	text-align:center;
 	position:relative;
 }
 #canvas{
