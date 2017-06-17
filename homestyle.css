@@ -27,7 +27,7 @@ h1{
 	text-align:center;
 	position:fixed;
 	margin:auto;
-
+	display:table;
         vertical-align:center;
 }
 
