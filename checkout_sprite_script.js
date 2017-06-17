@@ -29,7 +29,7 @@
 				button.appendChild(player.dom);
 				button.target= '_self';
 				document.body.appendChild(button);
-				document.getElementById('button').onclick = location.href= 'https://shaquan1228.github.io/home.html';
+			//	document.getElementById('button').onclick = location.href= 'https://shaquan1228.github.io/home.html';
 			//	button.onclick = window.open("https://shaquan1228.github.io/home.html","_self");
 
                         } );
