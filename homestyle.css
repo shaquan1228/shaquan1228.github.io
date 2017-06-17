@@ -19,7 +19,9 @@ button{
 	background-color: black;
 	min-height: 48px;
 	min-width: 48px;
-	margin-top:95%;
+	max-height: 100%
+	max-width: 100%;
+	margin-top:45%;
 	font-size: 14px;
 	font-family: helvetica;
 	display: inline-block;
