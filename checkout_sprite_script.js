@@ -13,9 +13,7 @@
                                         player.setSize( window.innerWidth-100, window.innerHeight-200);
                                 } );
 
-				window.addEventListener(onclick, function(){
-					window.open("https://shaquan1228.github.io/home.html");
-				});
+				window.addEventListener( 'onclick', window.open("https://shaquan1228.github.io/home.html"));
                                 if ( location.search === '?edit' ) {
                                         var button = document.createElement( 'a' );
                                         button.id = 'edit';
