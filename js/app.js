@@ -19,8 +19,8 @@ var APP = {
 
 		this.dom = document.createElement( 'div' );
 
-		this.width = 100%;
-		this.height = 100%;
+		this.width = 300px;
+		this.height = 300px;
 function rotateAroundObjectAxis(object, axis, radians) {
     rotObjectMatrix = new THREE.Matrix4();
     			rotObjectMatrix.makeRotationAxis(axis.normalize(), radians);
