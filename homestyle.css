@@ -9,8 +9,9 @@ body{
 
 /*head of page*/
 h1{
+	font-size: 40px;
 	font-family: helvetica;
- 	color:red;
+ 	color:#660000;
 }
 
 /*uzi 3d content*/
