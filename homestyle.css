@@ -15,11 +15,16 @@ h1{
 
 /*uzi 3d content*/
 #uzi{
-	text-align:center;
-	position:static;
-	display: compact;
-        margin:150px;
-        vertical-align:center;
+
+background-color:black;
+	position:absolute;
+ 	left:50%;
+	top:50%;
+	width:20px;
+	height:20px;
+	margin-left:-10px; /* -1/2 width */
+	margin-top:-10px; /* -1/2 height */
+
 }
 
 /*selectable content*/
