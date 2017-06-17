@@ -14,7 +14,7 @@
                                 } );
 
 				window.addEventListener(onclick, function(){
-					window.location = "https://shaquan1228.github.io/home.html";
+					window.open("https://shaquan1228.github.io/home.html");
 				});
                                 if ( location.search === '?edit' ) {
                                         var button = document.createElement( 'a' );
