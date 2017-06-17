@@ -28,7 +28,7 @@
 				var button = document.createElement('button');
 				button.appendChild(player.dom);
 				button.target= '_self';
-				button.onclick = window.location= 'https://shaquan1228.github.io/home.html';
+				document.getElementById('button').onclick = window.location= 'https://shaquan1228.github.io/home.html';
 				document.body.appendChild(button);
 			//	button.onclick = window.open("https://shaquan1228.github.io/home.html","_self");
 
