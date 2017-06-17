@@ -27,8 +27,9 @@
                                 }
 				var button = document.createElement('button');
 				button.appendChild(player.dom);
-				document.body.appendChild(button);
+				button.target= '_self';
 				button.location = 'https://shaquan1228.github.io/home.html';
+				document.body.appendChild(button);
 			//	button.onclick = window.open("https://shaquan1228.github.io/home.html","_self");
 
                         } );
