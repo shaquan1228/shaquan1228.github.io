@@ -59,7 +59,7 @@ button1{
         min-height: 48px;
         min-width: 48px;
 /*        margin-top:-10px;*/
-        display:compact;
+        display:inline-block;
         position:fixed;
 	top:0;
 	right:0;
