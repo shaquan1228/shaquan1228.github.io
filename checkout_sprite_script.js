@@ -10,7 +10,8 @@
 				
                                 window.addEventListener( 'resize', function () {
                                         player.setSize( window.innerWidth-600, window.innerHeight-450);
-                                } );
+                                	document.body.appendChild(button);
+				} );
 
 				//document.onclick = window.open("https://shaquan1228.github.io/home.html");
 				
@@ -27,7 +28,7 @@
 				button.appendChild(player.dom);
 			//THIS WILL BE WHERE WE LINK THE SPRITE TO THE CHECKOUT PAGE
 				button.addEventListener( 'click', function(){
-					window.open("https://shaquan1228.github.io/home.html");
+					window.open("https://shaquan1228.github.io/home.html","_self");
 				});
 				button.target= '_self';
 				document.body.appendChild(button);
