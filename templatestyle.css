@@ -62,9 +62,9 @@ button1{
         min-width: 48px;
         display:block;
         position:absolute;
-	bottom:0;
+	bottom:50%;
 	vertical-align:center;
-	/*left:50%*/
+	left:50%;
         border-radius:12px;
         padding: .5em;
 	margin: 0 auto;		
