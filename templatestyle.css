@@ -51,8 +51,8 @@ button{
 button1{
         color:#660000;
         background-color:white;
-        min-height: 48px;
-        min-width: 48px;
+        min-height: 24px;
+        min-width: 24px;
         display:inline-block;
         position:fixed;
 	top:0px;
