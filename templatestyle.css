@@ -62,7 +62,7 @@ button1{
         display:compact;
         position: absolute;
 	top:0;
-	right:0;
+/*	right:0;*/
         border-radius:12px;
         padding: 1.5em;
 }
