@@ -60,9 +60,8 @@ button1{
         background-color:black;
         min-height: 48px;
         min-width: 48px;
-        display:inline-block;
+        display:block;
         position:fixed;
-	left:50;
 	bottom:0;
 	vertical-align:center;
 	/*left:50%*/
