@@ -55,8 +55,9 @@ button1{
         min-width: 48px;
         display:inline-block;
         position:absolute;
-	bottom:100px;
-	vertical-align: middle;
+	/*bottom:100px;*/
+	vertical-align: bottom;
+	horizontal-align: middle;
 	/*left:50px;*/ 
         border-radius:12px;
         padding: 1.5em;
