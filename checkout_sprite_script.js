@@ -4,7 +4,7 @@
 
                                 var player = new APP.Player();
                                 player.load( JSON.parse( text ) );
-                                player.setSize( window.innerWidth*.3, window.innerHeight*.3);
+                                player.setSize( window.innerWidth*.5, window.innerHeight*.4);
                                 player.play();
 
                               //  document.body.appendChild( player.dom );
