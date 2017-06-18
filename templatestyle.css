@@ -56,8 +56,8 @@ button{
 button1{
         color:#660000;
         background-color:white;
-        min-height: 48px;
-        min-width: 48px;
+        min-height: 30px;
+        min-width: 30px;
 /*        margin-top:-10px;*/
         display:compact;
         position: absolute;
