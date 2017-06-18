@@ -57,7 +57,7 @@ button1{
         position:absolute;
 	bottom:100px;
 	/*vertical-align: bottom;*/
-	text-align: middle;
+	text-align: center;
 	/*left:50px;*/ 
         border-radius:12px;
         padding: 1.5em;
