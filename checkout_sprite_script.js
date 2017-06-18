@@ -9,7 +9,7 @@
                               //  document.body.appendChild( player.dom );
 				
                                 window.addEventListener( 'resize', function () {
-                                        player.setSize( window.innerWidth-600, window.innerHeight-450);
+					player.setSize( window.innerWidth*.3, window.innerHeight*.2);
                                 	document.body.appendChild(button);
 				} );
 
