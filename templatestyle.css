@@ -28,18 +28,7 @@ h1{
 
 }
 canvas {
-/*
-	width:100%;
-        text-align:center;
-        vertical-align:middle;
-        position:absolute;
-        margin: 0 auto;
-    padding-left: 0;
-    padding-right: 0;
-    margin-left: auto;
-    margin-right: auto;
-    display: block;
-    width: 800px;*/
+
 }
 
 /*selectable content*/
@@ -64,7 +53,7 @@ button1{
         background-color:white;
         min-height: 48px;
         min-width: 48px;
-        display:block;
+        display:inline-block;
         position:absolute;
 /*	bottom:50%;
 	left:50%; */
