@@ -61,7 +61,7 @@ button1{
         display:inline-block;
         position:fixed;
 	top:0;
-	right:20;
+	right:0;
         border-radius:12px;
         padding: .5em;
 }
