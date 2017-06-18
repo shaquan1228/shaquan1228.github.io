@@ -54,8 +54,8 @@ button1{
         min-height: 48px;
         min-width: 48px;
         display:inline-block;
-        position:absolute;
-	bottom:100px;
+        position:fixed;
+	bottom:10px;
 	/*vertical-align: bottom;*/
 	text-align: center;
 	/*margin-left:50%;*/
