@@ -43,7 +43,7 @@ button{
 	background-color:black;
 	min-height:35px;
 	min-width: 35px;
-	margin-top:25px;
+	margin: 0 auto;
 	font-size: 14px;
 	font-family: helvetica;
 	display: inline-block;
