@@ -8,10 +8,9 @@
                                 player.play();
                               //  document.body.appendChild( player.dom );
 				
-				//document.body.appendChild(
-                               // window.addEventListener( 'resize', function () {
-                                 //       player.setSize( window.innerWidth-600, window.innerHeight-450);
-                               // } );
+                                window.addEventListener( 'resize', function () {
+                                        player.setSize( window.innerWidth-600, window.innerHeight-450);
+                                } );
 
 				//document.onclick = window.open("https://shaquan1228.github.io/home.html");
 				
