@@ -58,8 +58,8 @@ button1{
 	bottom:100px;
 	/*vertical-align: bottom;*/
 	text-align: center;
-	margin-left:50px;
-	margin-right:0px;
+	margin-left:100px;
+	margin-right:auto;
 	/*left:50px;*/ 
         border-radius:12px;
         padding: 1.5em;
