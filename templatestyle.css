@@ -67,4 +67,5 @@ button1{
 	/*left:50%*/
         border-radius:12px;
         padding: .5em;
+	margin: 0 auto;		
 }
