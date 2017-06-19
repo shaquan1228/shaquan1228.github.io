@@ -41,29 +41,31 @@ img{
 }
 
 #about{
-
+	font-family: helvetica;
+	font-size:12px;	
 	position: absolute;
     	display: inline;
-    	margin:  auto;
-	margin-left:50px;
+	margin-right:150px;
+        margin-top:300px;
+	/*margin-left:50px;*/
     	/*margin-left:10%;
 	margin-right:90%;*/
 	word-wrap: break-word;
-    	background: white;
-    	max-height: 200px;/*h:20% w:35%*/
-	max-width: 100px;
+    	background: black;
+    	max-height: 150px;/*h:20% w:35%*/
+	min-width: 300px;
 	overflow:hidden;
 /*
 	position:absolute;
 	display: table;
 	text-align:center;
-/*	top:52%;
-	left:45%;*/
+	top:52%;
+	left:45%;
 	margin: 0 auto;
 	margin-top: 300px;
 	margin-left: 10%;
 	max-width:200px;
-	/*margin: 0 auto;*/
+	margin: 0 auto;
 	background: white;
 */
 }
