@@ -30,16 +30,28 @@ h1{
 canvas {
 
 }
+
+img{
+	position: absolute;
+	margin-left:50px;
+	margin-top: 80px;
+	displpay:block;
+	width: 200px;
+	height:200px;
+}
+
 #about{
 	position:absolute;
-	display: inline;
+	display: table;
 	text-align:center;
-	bottom:50%;
-	left:35%;
+/*	top:52%;
+	left:45%;*/
 	margin: 0 auto;
+	margin-top: 300px;
+	margin-left: 10%;
+	max-width:200px;
+	/*margin: 0 auto;*/
 	background: white;
-	min-height:20%;
-	min-width:35%;
 
 }
 
