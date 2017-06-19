@@ -41,6 +41,16 @@ img{
 }
 
 #about{
+
+position: absolute;
+    display: inline;
+    bottom: 50%;
+    left: 35%;
+    margin: 0 auto;
+    background: white;
+    min-height: 20%;
+    min-width: 35%;
+/*
 	position:absolute;
 	display: table;
 	text-align:center;
@@ -52,7 +62,7 @@ img{
 	max-width:200px;
 	/*margin: 0 auto;*/
 	background: white;
-
+*/
 }
 
 /*selectable content*/
