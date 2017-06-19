@@ -30,6 +30,17 @@ h1{
 canvas {
 
 }
+#about{
+	position:absolute;
+	/*display: inline;*/
+	bottom:30%;
+	left:35%;
+	margin: 0 auto;
+	background: white;
+	min-height:20%;
+	min-width:35%;
+
+}
 
 /*selectable content*/
 button{
