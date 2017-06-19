@@ -33,6 +33,7 @@ canvas {
 #about{
 	position:absolute;
 	display: inline;
+	text-align:center;
 	bottom:50%;
 	left:35%;
 	margin: 0 auto;
