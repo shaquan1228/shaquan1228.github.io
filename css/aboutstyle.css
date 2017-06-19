@@ -42,13 +42,17 @@ img{
 
 #about{
 
-position: absolute;
-    display: inline;
-    margin: 0 auto;
-    margin-left:10%;
-    background: white;
-    min-height: 20%;
-    min-width: 35%;
+	position: absolute;
+    	display: inline;
+    	margin:  auto;
+	margin-left:50px;
+    	/*margin-left:10%;
+	margin-right:90%;*/
+	word-wrap: break-word;
+    	background: white;
+    	max-height: 200px;/*h:20% w:35%*/
+	max-width: 100px;
+	overflow:hidden;
 /*
 	position:absolute;
 	display: table;
