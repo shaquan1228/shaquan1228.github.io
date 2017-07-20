@@ -20,16 +20,14 @@ h1{
 #uzi{
 
  	width:100px;
-        height:100px;
-        margin-left:45%;
-        text-align:center;
-        vertical-align:middle;
-        position:fixed;
+    height:100px;
+    margin-left:45%;
+    text-align:center;
+    vertical-align:middle;
+    position:fixed;
 
 }
-canvas {
 
-}
 
 /*selectable content*/
 button{
