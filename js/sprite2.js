@@ -1,5 +1,5 @@
                         var loader = new THREE.FileLoader();
-                        loader.load( 'app.json', function ( text ) {
+                        loader.load( 'js/app.json', function ( text ) {
 
 
                                 var player = new APP.Player();
