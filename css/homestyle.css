@@ -6,11 +6,11 @@
 
 
 canvas{
- position: absolute;
+     position: fixed;
     margin: 0 auto;
     min-height: 150px;
     margin-top: 100px;
-    
+
 
 }
 
