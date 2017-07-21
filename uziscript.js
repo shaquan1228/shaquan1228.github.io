@@ -4,13 +4,13 @@
 
                                 var player = new APP.Player();
                                 player.load( JSON.parse( text ) );
-                                player.setSize( window.innerWidth-60, window.innerHeight-100);
+                                player.setSize( window.innerWidth, window.innerHeight);
                                 player.play();
 
                                 document.body.appendChild( player.dom );
 
                                 window.addEventListener( 'resize', function () {
-                                        player.setSize( window.innerWidth-60, window.innerHeight-100 );
+                                        player.setSize( window.innerWidth, window.innerHeight );
                                 } );
 
                                 if ( location.search === '?edit' ) {
