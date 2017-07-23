@@ -6,6 +6,12 @@ img{
 	height:30%px;
 }
 
+hdr{
+
+    font-family:helvetica;
+    font-size:18px;
+}
+
 body{
 	max-width: 100%;
 	max-height: 100%;
