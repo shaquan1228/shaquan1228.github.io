@@ -26,25 +26,14 @@ body{
 
 }
 
-
 #bottom{
 
     position:fixed;
+    width: 80px;
+    height:80px;
     bottom:0;
     right:0;
-    frameborder:0;
+
 }
 
-button1{
-        color:#660000;
-        background-color:black;
-        min-height: 24px;
-        min-width: 24px;
-        display:block;
-        position:fixed;
-	bottom:0;
-	right:0;
-	text-align: center;
-        border-radius:12px;
-        padding: 1.5em;
-}
+

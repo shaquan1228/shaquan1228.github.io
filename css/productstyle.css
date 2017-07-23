@@ -21,20 +21,13 @@ body{
 #bottom{
 
     position:fixed;
+    width: 80px;
+    height:80px;
     bottom:0;
     right:0;
 
 }
 
-
-#txt{
-
-    position:fixed;
-    top:15%;
-    left:50%;
-    font-size:10px;
-
-}
 
 #items1{
 	position:absolute;
@@ -55,36 +48,4 @@ body{
         margin-right:30%;
         margin-top:50%;*/
 }
-/*selectable content*/
-button{
-	color:#660000;
-	background-color:black;
-	min-height:35px;
-	min-width: 35px;
-	margin: 0 auto;
-`	margin-top:25px;
-	font-size: 14px;
-	font-family: helvetica;
-	display: inline-block;
-	position: relative;
-	top: 15px;
-	border-radius:12px;
-	border:1px solid #660000;
-	padding: 1.5em;
-	box-shadow: 0px 0px 30px #660000;
-}
 
-
-button1{
-        color:#660000;
-        background-color:black;
-        min-height: 24px;
-        min-width: 24px;
-        display:block;
-        position:fixed;
-	bottom:0;
-	right:0;
-	text-align: center;
-        border-radius:12px;
-        padding: 1.5em;
-}

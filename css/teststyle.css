@@ -7,10 +7,13 @@
 #bottom{
 
     position:fixed;
+    width: 80px;
+    height:80px;
     bottom:0;
     right:0;
 
 }
+
 
 body{
 max-width: 100%;
